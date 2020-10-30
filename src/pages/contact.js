@@ -33,12 +33,12 @@ const Contact = () => {
           <form className="contact-form" onSubmit={handleSubmit}>
             <h2>contact us</h2>
             {/* input */}
-            <div class="form-control">
+            <div className="form-control">
               <label htmlFor="firstName">first name</label>
               <input
                 type="text"
                 id="firstName"
-                class="form-input"
+                className="form-input"
                 placeholder="enter your first name"
                 value={person.firstName}
                 name="firstName"
@@ -47,12 +47,12 @@ const Contact = () => {
             </div>
             {/* end of input */}
             {/* input */}
-            <div class="form-control">
+            <div className="form-control">
               <label htmlFor="lastName">last name</label>
               <input
                 type="text"
                 id="lastName"
-                class="form-input"
+                className="form-input"
                 placeholder="enter your last name"
                 value={person.lastName}
                 name="lastName"
@@ -61,12 +61,12 @@ const Contact = () => {
             </div>
             {/* end of input */}
             {/* input */}
-            <div class="form-control">
+            <div className="form-control">
               <label htmlFor="email">email</label>
               <input
                 type="email"
                 id="email"
-                class="form-input"
+                className="form-input"
                 placeholder="enter your email"
                 value={person.email}
                 name="email"
@@ -75,13 +75,13 @@ const Contact = () => {
             </div>
             {/* end of input */}
             {/* input */}
-            <div class="form-control">
+            <div className="form-control">
               <label htmlFor="phone">phone</label>
 
               <input
                 type="tel"
                 id="phone"
-                class="form-input"
+                className="form-input"
                 placeholder="enter your phone"
                 value={person.phone}
                 name="phone"
